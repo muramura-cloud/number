@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initiaKl-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>数当てゲーム</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="body" class="hidden">
+  <div id="cover" class="hidden"></div>
+  <section id="result" class="hidden">
+    <p id="score"></p>
+    <a href="">replay?</a>
+  </section>
+  <div id="container">
+    <div id="timer">timer</div>
+    <ul id="board"></ul>
+    <div id="btn">start</div>
+  </div>
+  <form id="levelSet">
+    <label for="levelSet">レベル選択</label><br>
+    <select name="levels" id="levels">
+      <option value="2">初級</option>
+      <option value="3">中級</option>
+      <option value="4">上級</option>
+    </select>
+    <input id="levelSetBtn" type="button" value="設定">
+  </form>
+  <script src="js/script.js"></script>
+</body>
+</html>
